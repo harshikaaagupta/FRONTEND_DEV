@@ -1,0 +1,16 @@
+.box{
+    display:flex;
+    background-color: red;
+    flex-direction:column;
+}
+    
+.box div{
+    background-color: beige;
+    margin:20px;
+    padding:20px;
+    max-width: 10%;
+}
+img{
+    height:auto;
+    max-width:100%;
+}

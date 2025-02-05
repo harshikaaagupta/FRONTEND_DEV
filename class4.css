@@ -1,0 +1,17 @@
+.box{
+    display:grid;
+    background-color:rgb(249, 173, 145);
+    flex-direction:row;
+    align-items:column;
+    column-gap:2px;
+    row-gap:1px;
+    grid-template-areas:"footer footer footer";
+}
+    
+.box div{
+    background-color: beige;
+    margin:20px;
+    padding:10px;
+    
+}
+

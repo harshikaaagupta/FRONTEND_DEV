@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:red;
+}
+a:visited{
+    color:green;
+}
+p{
+    float:left;
+    width:30%;
+    padding:50px;
+    border:1px dotted black;
+    box-sizing:border-box;
+}
+h1{
+    position:absolute;
+}
+h4{
+    position:relative;
+}

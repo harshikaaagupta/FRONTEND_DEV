@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="class12.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="showButton">Show</button>
+    <button id="hideButton">Hide</button>
+    <button id="toggleButton">toggle</button>
+    <div id="content" style="display: none;">Hello, Everyone!</div>
+
+    <script>
+        $(document).ready(function() {
+            
+            $("#showButton").click(function() {
+                $("#content").show();
+            });
+
+            
+            $("#hideButton").click(function() {
+                $("#content").hide();
+            });
+
+           
+            $("#toggleButton").click(function() {
+                $("#content").toggle();
+            });
+        });
+    </script>
+</body>
+</html>
